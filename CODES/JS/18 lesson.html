@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <style>
+        .gamearea{
+            height: 200px;
+            width:200px;
+            border: 1px solid black;
+        }
+        .box{
+            width:50%;
+            height:50%;
+            color:black;
+            text-align: center;
+            display: inline-block;
+        }
+        .active{
+            border: 1px solid red;
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+<div class="message">Press Start Button</div>
+    <div class="gamearea"> </div>
+    <button type="button">Start</button>
+    <script>
+    const message = document.querySelector(".message");
+    const gamearea = document.querySelector(".gamearea");
+    const button = document.querySelector("button");
+    button.addEventListener("click",function(){
+        console.log("works");
+    })
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</body>
+
+</html>

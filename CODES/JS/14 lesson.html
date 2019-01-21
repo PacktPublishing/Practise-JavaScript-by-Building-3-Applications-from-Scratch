@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <style>
+        #player1,
+        #player2 {
+            display: inline-block;
+            width: 200px;
+            height: 140px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 25px;
+            text-align: center;
+            font-size: 7em;
+        }
+        
+        #output {
+            width: 550px;
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        button {
+            padding: 10px;
+            text-align: center;
+            width: 550px;
+        }
+        .dicer{
+            border: 1px solid black;
+            width:90px;
+            height:90px;
+            padding:2px;
+            border-radius: 10px;
+        }
+        .black {
+            background-color: black;
+        }
+        .white {
+            background-color: white;
+        }
+        .dot {
+            height: 25px;
+            width:25px;
+            border-radius: 50%;
+            display: inline-block;
+            margin:2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="output"><div > Roll the Dice??</div></div>
+    <button type="button">Roll</button>
+    <script>
+        const button = document.querySelector("button");
+        const output = document.querySelector(".output");
+        const dice = [[5],[1,9],[1,5,9],[1,3,7,9],[1,3,5,7,9],[1,3,4,6,7,9]];
+        button.addEventListener("click", function () {
+            let rollDice = roll(6);
+            let holder = builder(rollDice);
+            if(output.children[0]){output.children[0].remove();}
+            output.appendChild(holder);
+        })
+        
+        function builder(num){
+            let div = document.createElement("div");
+            let dieArray = dice[num-1];
+            console.log(dieArray);
+            for(let x=1;x<10;x++){
+                let span = document.createElement("div");
+                span.setAttribute("class","dot");
+                //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+                if(dieArray.includes(x)){
+                    span.classList.add("black");    
+                }
+                div.appendChild(span);
+            }
+            div.setAttribute("class","dicer");
+            return div;
+        }
+        
+
+        function roll(num) {
+            let rNumber = Math.floor(Math.random() * num) + 1;
+            return rNumber;
+        }
+    </script>
+</body>
+
+</html>

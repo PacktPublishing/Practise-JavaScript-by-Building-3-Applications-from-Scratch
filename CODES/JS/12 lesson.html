@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <style>
+        #player1,
+        #player2 {
+            display: inline-block;
+            width: 200px;
+            height: 140px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 25px;
+            text-align: center;
+            font-size: 7em;
+        }
+        
+        #output {
+            width: 550px;
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        button {
+            padding: 10px;
+            text-align: center;
+            width: 550px;
+        }
+        .dicer{
+            border: 1px solid black;
+            width:90px;
+            height:90px;
+            padding:2px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="output"></div>
+    <button type="button">Roll</button>
+    <script>
+        const button = document.querySelector("button");
+        const output = document.querySelector(".output");
+        button.addEventListener("click", function () {
+            let rollDice = roll(6);
+            console.log(rollDice);
+            let holder = builder(rollDice);
+            output.appendChild(holder);
+        })
+        
+        function builder(num){
+            let div = document.createElement("div");
+            div.setAttribute("class","dicer");
+            return div;
+        }
+        
+
+        function roll(num) {
+            let rNumber = Math.floor(Math.random() * num) + 1;
+            return rNumber;
+        }
+    </script>
+</body>
+
+</html>

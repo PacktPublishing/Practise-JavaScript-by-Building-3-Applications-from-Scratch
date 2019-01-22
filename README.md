@@ -1,7 +1,7 @@
-# JavaScript---3-Practice-building-applications-from-Scratch
+# Practise JavaScript by Building 3 Applications from Scratch
 Code repository for JavaScript - 3 Practice building applications from Scratch, Published by Packt
-# JavaScript - 3 Practice building applications from Scratch
-This is the code repository for [JavaScript - 3 Practice building applications from Scratch](https://www.packtpub.com/application-development/hands-reactive-microservices-net-core-3-video?utm_source=github&utm_medium=repository&utm_campaign=9781789952957), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+# Practise JavaScript by Building 3 Applications from Scratch
+This is the code repository for [Practise JavaScript by Building 3 Applications from Scratch](https://www.packtpub.com/application-development/hands-reactive-microservices-net-core-3-video?utm_source=github&utm_medium=repository&utm_campaign=9781789952957), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 This course allows you to practice using JavaScript while building several fun interactive projects from scratch. This is a perfect course for beginners to learn JavaScript. Beginner-level JavaScript knowledge is required as the course covers only JavaScript relevant to the building of the game. Also HTML and CSS knowledge is essential as the scope of this course is entirely JavaScript-focused.
 This Course includes:
@@ -10,7 +10,7 @@ Ultimate Dice game
 Pattern Matching game
 Start building your own game versions today!!!!
 
-Codes and supporting files for this course are available at: https://github.com/PacktPublishing/JavaScript---3-Practice-building-applications-from-Scratch
+Codes and supporting files for this course are available at:https://github.com/PacktPublishing/Practise-JavaScript-by-Building-3-Applications-from-Scratch
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>

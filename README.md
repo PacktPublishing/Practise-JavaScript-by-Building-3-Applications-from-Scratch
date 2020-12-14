@@ -1,3 +1,8 @@
+## $5 Tech Unlocked 2021!
+[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/practise-javascript-by-building-3-applications-from-scratch-video/9781838556709)
+-----
+*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
+
 # Practise JavaScript by Building 3 Applications from Scratch
 Code repository for JavaScript - 3 Practice building applications from Scratch, Published by Packt
 # Practise JavaScript by Building 3 Applications from Scratch
